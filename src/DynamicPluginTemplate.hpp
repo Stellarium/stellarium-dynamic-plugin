@@ -18,8 +18,8 @@
  * Foundation, Inc., 51 Franklin Street, Suite 500, Boston, MA  02110-1335, USA.
  */
 
-#ifndef DYNAMICPLUGINTEMPLATE_HPP_
-#define DYNAMICPLUGINTEMPLATE_HPP_
+#ifndef DYNAMICPLUGINTEMPLATE_HPP
+#define DYNAMICPLUGINTEMPLATE_HPP
 
 #include "StelModule.hpp"
 #include <QFont>
@@ -64,4 +64,4 @@ public:
 	virtual QObjectList getExtensionList() const { return QObjectList(); }
 };
 
-#endif /* DYNAMICPLUGINTEMPLATE_HPP_ */
+#endif // DYNAMICPLUGINTEMPLATE_HPP

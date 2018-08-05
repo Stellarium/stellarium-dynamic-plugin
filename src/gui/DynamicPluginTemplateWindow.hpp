@@ -1,5 +1,6 @@
 /*
  * Copyright (C) 2015 Kirill Snezhko
+ * Copyright (C) 2018 Alexander Wolf
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public License
@@ -16,8 +17,8 @@
  * Foundation, Inc., 51 Franklin Street, Suite 500, Boston, MA  02110-1335, USA.
  */
 
-#ifndef DIALOG_H
-#define DIALOG_H
+#ifndef DYNAMICPLUGINTEMPLATEWINDOW_HPP
+#define DYNAMICPLUGINTEMPLATEWINDOW_HPP
 
 #include "StelDialog.hpp"
 
@@ -43,4 +44,4 @@ private:
 
 };
 
-#endif // DIALOG_H
+#endif // DYNAMICPLUGINTEMPLATEWINDOW_HPP
