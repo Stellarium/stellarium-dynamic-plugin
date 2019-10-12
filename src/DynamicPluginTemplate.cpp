@@ -46,7 +46,8 @@ StelPluginInfo DynamicPluginTemplatePluginInterface::getPluginInfo() const
 	info.displayedName = N_("Dynamic Plugin Template");
 	info.authors = "Kirill Snezhko, Alexander Wolf";
 	info.contact = "stellarium@googlegroups.com";
-	info.description = N_("Startpoint for the dynamic plugin development.");
+	info.description = N_("Startpoint for the dynamic plugin development.");    
+	info.acknowledgements = N_("Optional acknowledgements...");
 	info.version = DYNAMICPLUGINTEMPLATE_VERSION;
 	info.license = DYNAMICPLUGINTEMPLATE_LICENSE;
 	return info;
