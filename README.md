@@ -17,14 +17,14 @@ Other operating systems are NOT yet supported.
 
 1.  Install and build the Git version of Stellarium as per the [instructions](https://github.com/Stellarium/stellarium/blob/master/BUILDING.md).
 
-2.  Set the environment variable STELROOT to the root of the Stellarium
+2.  Set the environment variable `STELROOT` to the root of the Stellarium
 source tree.  The Stellarium build directory is expected to be:
 
    ```
     $STELROOT/builds/unix 
    ```
 
-3.  Create a sub-directory builds/unix and change into that directory. 
+3.  Create a sub-directory `builds/unix` and change into that directory. 
 
 4.  Run:
 
@@ -35,6 +35,6 @@ source tree.  The Stellarium build directory is expected to be:
    ```
    
 If all goes well, the relevant files should be built and copied to your 
-~/.stellarium/modules directory.
+`~/.stellarium/modules` directory.
 
 
