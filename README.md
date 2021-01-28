@@ -15,10 +15,7 @@ Other operating systems are NOT yet supported.
     LD_LIBRARY_PATH=${QTPATH}/lib:${LD_LIBRARY_PATH}
    ```
 
-1.  Install and build the Git version of Stellarium as per the 
-instructions on the Stellarium wiki:
-
-  https://github.com/Stellarium/stellarium/wiki/Compilation-on-Linux
+1.  Install and build the Git version of Stellarium as per the [instructions](https://github.com/Stellarium/stellarium/blob/master/BUILDING.md).
 
 2.  Set the environment variable STELROOT to the root of the Stellarium
 source tree.  The Stellarium build directory is expected to be:
