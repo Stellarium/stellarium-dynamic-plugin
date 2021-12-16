@@ -94,6 +94,17 @@ bool DynamicPluginTemplate::configureGui(bool show)
 void DynamicPluginTemplate::init()
 {
 	qDebug() << "init called for DynamicPluginTemplate";
+	
+	MarkerMgr* markerMgr = GETSTELMODULE(MarkerMgr);
+	markerMgr->setMarkerShow(markerMgr->markerEquatorial("0h00m0s","0d0m0s",true,true,"target","#00ff00",6,false,0),true);
+	markerMgr->setMarkerShow(markerMgr->markerEquatorial("10h00m0s","-10d0m0s",true,true,"cross","#ffff00",7,false,0),true);
+	markerMgr->setMarkerShow(markerMgr->markerEquatorial("20h00m0s","-20d0m0s",true,true,"circle","#ffffff",8,false,0),true);
+	markerMgr->setMarkerShow(markerMgr->markerEquatorial("30h00m0s","-30d0m0s",true,true,"gear","#00ffff",9,false,0),true);
+	markerMgr->setMarkerShow(markerMgr->markerEquatorial("40h00m0s","-40d0m0s",true,true,"disk","#0000ff",25,false,0),true);
+	markerMgr->setMarkerShow(markerMgr->markerEquatorial("19h46m35s","-24d43m35s"),true);
+	markerMgr->setMarkerShow(markerMgr->markerObject("Venus"),true);
+	qDebug() << "marker id: " << markerMgr->markerEquatorial("6h28m0s", "-30d0m0s", true, true, "cross", "#ff0000", 6, false, 0);
+	qDebug() << "markers added?";
 }
 
 void DynamicPluginTemplate::deinit()

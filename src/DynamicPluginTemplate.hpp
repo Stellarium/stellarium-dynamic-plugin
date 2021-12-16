@@ -22,6 +22,7 @@
 #define DYNAMICPLUGINTEMPLATE_HPP
 
 #include "StelModule.hpp"
+#include "MarkerMgr.hpp"
 #include <QFont>
 
 class DynamicPluginTemplateWindow; 
@@ -46,6 +47,7 @@ private:
 	// Font used for displaying our text
 	QFont font;
 	DynamicPluginTemplateWindow * mainWindow;
+	MarkerMgr* markerMgr;
 };
 
 
