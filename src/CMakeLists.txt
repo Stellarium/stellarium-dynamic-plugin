@@ -6,7 +6,7 @@
 
 INCLUDE_DIRECTORIES(.)
 
-LINK_DIRECTORIES(${BUILD_DIR}/src)
+LINK_DIRECTORIES(${CMAKE_BINARY_DIR}/src)
 
 SET(DynamicPluginTemplate_SRCS
      # Source code
